@@ -1,10 +1,10 @@
 # SpillutviklingX-showcase
 
-The gameplay scripts from **SpillutviklingX**, a small dungeon-crawler RPG I built in Unity 6 (C#) — NavMesh-driven enemies, a quest/dialogue system, and the usual core-loop plumbing (health, combat, audio, scene flow).
+The gameplay scripts from **SpillutviklingX**, a small dungeon-crawler RPG that two co-students and I built in Unity 6 (C#) — NavMesh-driven enemies, a quest/dialogue system, and the usual core-loop plumbing (health, combat, audio, scene flow).
 
 ## Why just the scripts
 
-The full project (private) also contains several third-party asset packs — KayKit's dungeon/character models, an RPG forest environment pack, TextMesh Pro, a UI kit. Even the free ones come with Unity Asset Store licenses that don't permit redistributing the raw assets outside a compiled build, so none of that ships here — just the C# I wrote, which doesn't embed any of it. One auto-generated file (Unity's Input System action bindings) is left out too, since it's generated, not written.
+The full project (private) also contains several third-party asset packs — KayKit's dungeon/character models, an RPG forest environment pack, TextMesh Pro, a UI kit. Even the free ones come with Unity Asset Store licenses that don't permit redistributing the raw assets outside a compiled build, so none of that ships here — just the C# I wrote a lot of, which doesn't embed any of it. One auto-generated file (Unity's Input System action bindings) is left out too, since it's generated, not written.
 
 Won't compile as-is: these scripts reference project-specific prefabs, animator parameters, and scene objects wired up in the Unity Editor, which don't travel with plain text files.
 
